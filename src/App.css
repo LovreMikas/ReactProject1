@@ -1,8 +1,62 @@
-.App{
+body{
     text-align: center;
-    background-color: aqua;
+    background: rgb(41,167,223);
+    background: linear-gradient(164deg, rgba(41,167,223,1) 7%, rgba(67,188,255,1) 32%, rgba(67,255,243,1) 55%, rgba(67,255,234,1) 83%, rgba(0,212,255,1) 100%);
+
 }
 table{
     margin: 0px auto;
     
 }
+.ha{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color:white;
+    background: rgb(21,101,201);
+    background: linear-gradient(90deg, rgba(21,101,201,1) 20%, rgba(7,7,125,1) 53%, rgba(21,101,201,1) 90%, rgba(21,101,201,1) 90%, rgba(0,212,255,1) 100%);    
+}
+.header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: rgb(41,210,223);
+background: linear-gradient(90deg, rgba(41,210,223,1) 7%, rgba(67,255,234,1) 32%, rgba(67,255,234,1) 54%, rgba(67,255,234,1) 83%, rgba(0,212,255,1) 100%);
+}
+.jas{
+    width: 700px;
+    height: 400px;
+}
+.pas{
+    width: 600px;
+    height: 400px;
+    text-align: left;
+    border: goldenrod;
+    border-style: solid;
+}
+.da{
+    margin: 1cm;
+    width: 600px;
+    height: 500px;
+    border: blue;
+    border-style: solid;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+a:hover{
+    size: 30px;    
+    color:green;
+}
+a:visited{
+    color:#14a019;
+}
+h1 {
+    font-size: 62px;
+    background: -webkit-linear-gradient(#f5ad04,#a29090);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

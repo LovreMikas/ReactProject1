@@ -5,18 +5,22 @@ import Header from './Header';
 import Footer from './Footer';
 import Druga from './components/druga';
 import Hiperveza from './components/hiperveza';
-import{Route,BrowserRouter as Mljac}from 'react-router-dom'
+import Treca from './components/treca';
+import Cetvrta from './components/cetvrta';
+
+import {Route,BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
+    <div className="haha">
       <Header></Header>
-     
-      <Mljac>
-        
+      
+      <Router>
         <Route exact path ="/" component = {Prva} ></Route>
         <Route path ="/druga" component = {Druga} ></Route>
         <Route path ="/hiperveza" component = {Hiperveza} ></Route>
-      </Mljac>
+        <Route path ="/treca" component = {Treca} ></Route>
+        <Route path ="/cetvrta" component = {Cetvrta} ></Route>
+      </Router>
       <Footer></Footer>
       
     </div>

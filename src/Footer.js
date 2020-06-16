@@ -1,12 +1,11 @@
 import React from 'react';
-import slika from './As.jpg';
 
 function Funkcije() {
 
   return (
-    <div class>
+    <div >
        
-    
+    <p className="ha">Urednik : Lovre Žuljević Mikas</p>
     </div>
   );
 }
